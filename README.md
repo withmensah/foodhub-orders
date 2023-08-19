@@ -1,6 +1,5 @@
 # foodhub-orders
-This is another challenge from the LightHall Data Analytics Super League.
-
+I analyzed the foodhub orders data set from the LightHall Data Analytics Super League to come up with visualizations and recommendations 
 ## Context
 
 The number of restaurants in New York is increasing day by day. Lots of students and busy professionals rely on those restaurants due to their hectic lifestyles. Online food delivery service is a great option for them. It provides them with good food from their favorite restaurants. A food aggregator company FoodHub offers access to multiple restaurants through a single smartphone app.
@@ -13,7 +12,7 @@ The food aggregator company has stored the data of the different orders made by 
 
 ## Data Description
 
-The data contains the different data related to a food order. The detailed data dictionary is given below.
+The data contains different data related to a food order. The detailed data dictionary is given below.
 
 ### Data Dictionary
 
@@ -37,4 +36,24 @@ The data contains the different data related to a food order. The detailed data 
 6. How does delivery time vary across different restaurants?
 7. Is there a correlation between food preparation time and delivery time?
 8. How much money is earned by the food aggregator from the delivery margin?
+
+
+
+## Conclusion and Recommendations
+
+**Observation 1:** It is clear that the American cuisine type is the most popular on the weekends followed by the Japanese, Italian, Chinese, Mexican cuisine types.
+
+**Observation 2:** The top restaurant is Shake Shack with over 200 orders placed.
+
+**Observation 3:** The majority of FoodHub orders are placed on the weekends.
+
+### Recommendations
+
+1. **Weekend Promotions:** We recommend introducing some kind of special promotion, discounts, or limited-time offers for the most popular cuisine type on weekends. This can help drive more orders during weekends and attract customers looking for specific cuisine options.
+
+2. **Personalized Recommendations:** Utilizing customer order data and feedback to offer personalized recommendations to customers based on their preferences can potentially enhance the customer experience and encourage repeat orders.
+
+3. **Restaurants should look into the 'French', 'Southern', 'Korean', 'Spanish', 'Vietnamese' cuisines as they were ordered the least (Perhaps something to do with the preparation?).**
+
+4. **Not much can be said about the ratings because 700+ customers didn't bother to give ratings, however, we recommend maybe giving some incentives to encourage customers to give ratings.**
 
